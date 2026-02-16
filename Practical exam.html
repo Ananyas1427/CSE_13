@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background: #2c3e50;
+      color: white;
+    }
+
+    .pass {
+      color: green;
+      font-weight: bold;
+    }
+
+    .fail {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>Annual Examination Result</h2>
+
+<table>
+
+  <!-- First Row with colspan -->
+  <tr>
+    <th colspan="7">ABC Public School - Class 10 Result 2026</th>
+  </tr>
+
+  <!-- Second Row -->
+  <tr>
+    <th rowspan="2">Roll No</th>
+    <th rowspan="2">Name</th>
+    <th colspan="3">Marks</th>
+    <th rowspan="2">Total</th>
+    <th rowspan="2">Result</th>
+  </tr>
+
+  <!-- Third Row -->
+  <tr>
+    <th>Maths</th>
+    <th>Science</th>
+    <th>English</th>
+  </tr>
+
+  <!-- Student 1 -->
+  <tr>
+    <td>101</td>
+    <td>Asha</td>
+    <td>85</td>
+    <td>78</td>
+    <td>90</td>
+    <td>253</td>
+    <td class="pass">Pass</td>
+  </tr>
+
+  <!-- Student 2 -->
+  <tr>
+    <td>102</td>
+    <td>Rohit</td>
+    <td>40</td>
+    <td>35</td>
+    <td>45</td>
+    <td>120</td>
+    <td class="fail">Fail</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
